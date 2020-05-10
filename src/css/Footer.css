@@ -1,0 +1,16 @@
+.list {
+	color: #696969;
+}
+.question{
+	margin-left: 15%;
+	font-size: 1.125rem;
+	margin-top: 7px;
+	padding-top: 4.5rem;
+}
+a{
+	color: #696969;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,29 @@
+/*First column*/
+
+.middle {
+	background: black;
+	margin-top: 0.5rem;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.enjoy {
+
+	display: flex;
+
+}
+.enjoy-tv {
+	margin-top: 4rem;
+	margin-left: 4rem;
+}
+.enjoy-h1 {
+	font-size: 3rem;
+}
+.enjoy-h2 {
+	font-size: 1.5rem;
+}
+
+.tv-remote {
+	width: 40%;
+	margin-left: 15%;
+	
+}

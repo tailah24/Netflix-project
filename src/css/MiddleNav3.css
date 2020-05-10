@@ -1,0 +1,24 @@
+/*Third column*/
+
+.watch {
+	display: flex;
+	background: black;
+	margin-top: 0.5rem;
+	padding-bottom: 5%;
+
+}
+
+.watch-text {
+	margin-left: 4rem;
+	margin-top: 12%;
+}
+
+.device-pile {
+	margin-top: 3rem;
+	width: 35rem;
+	margin-left: 8rem;
+}
+
+.watch-h1 {
+	font-size: 3.5rem;
+}

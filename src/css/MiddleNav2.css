@@ -1,0 +1,25 @@
+/*Second column*/
+
+.download {
+	margin-top: 0.5rem;
+	display: flex;
+	background: black;
+	padding-bottom: 3rem;
+}
+
+.stranger-things {
+	width: 40%;
+	
+	margin-top: 2rem;
+	
+}
+
+.download-text {
+	margin-top: 6rem;	
+	margin-left: 6rem;
+	text-align: start;
+}
+.download-h1 {
+	font-size: 3rem;
+	margin-bottom: 0.2rem;
+}
