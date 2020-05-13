@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from "styled-components"
+import { NavLink } from "react-router-dom";
 
 
  class LoginForm extends Component {
@@ -24,6 +25,15 @@ import styled from "styled-components"
 			<Button type="submit"> Sign In</Button>
 
 			</div>
+			<label className="checkbox-container">
+
+			<input type="checkbox">
+			</input>
+			Remember me
+
+			 </label>
+			 <span className="checkmark"></span>
+			 <NavLink to="/" className="need-help"> Need help?</NavLink>
 			</form>
 
 			</div>
@@ -89,6 +99,28 @@ input:focus {
 	outline: none;
 }
 
+.checkbox-container {
+	padding-left: 1.875rem;
+	margin-left: 0.75rem;
+	position: relative;
+	font-size: 0.9rem;
+	cursor: pointer;
+	margin-top: 5%;
+
+}
+.checkbox-container input {
+	display: none;
+}
+.checkmark {
+	display: inline-block;
+	background: #454545;
+	width: 1.1rem;
+	height: 1.1rem;
+	left: 14.5%;
+	border-radius: 0.1rem;
+	position: absolute;
+}
+
 `;
 
 const Button = styled.button`
@@ -96,6 +128,7 @@ color: #fff;
 background: rgba(229, 9, 20);
 padding: 1rem;
 margin-top: 5%;
+margin-bottom: 5%;
 outline: none;
 border: 0;
 border-radius: 0.25rem;
